@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <title>Hello App Engine</title>
+  </head>
+
+  <body>
+    <h1>Добавить письмо</h1>
+	
+	<form action="hello" method="get">
+	
+		Имя отправителя: <input type="text" name="firstname" value="Имя отправителя">
+		<br>
+		Фамилия отправителя: <input type="text" name="lastname" value="Фамилия отправителя">
+		<br>
+		Email отправителя: <input type="text" name="email" value="Email">
+		<br>
+		Тема письма: <input type="text" name="topic" value="Это тема твоего письма">
+		<br>
+		Сообщение: <textarea name="body">Напиши тут какое-то сообщение</textarea>
+		<br>
+		<input type="submit" name="submit" value="Отправить">
+		<br>
+		
+	</form>
+
+  </body>
+</html>
