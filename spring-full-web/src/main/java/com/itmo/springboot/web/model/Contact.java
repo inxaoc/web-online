@@ -80,7 +80,6 @@ public class Contact {
 
 	public Contact(String firstName, String lastName, String email, Date birthDate, Boolean active) {
 		super();
-		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;
@@ -88,5 +87,7 @@ public class Contact {
 		this.active = active;
 	}
 	
+	public Contact() {
+	}
 	
 }

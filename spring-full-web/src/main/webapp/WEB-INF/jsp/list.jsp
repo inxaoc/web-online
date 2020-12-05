@@ -23,7 +23,7 @@
 						<td>${contact.firstName }</td>
 						<td>${contact.lastName }</td>
 						<td>${contact.email }</td>
-						<td><fmt:formatDate value="${todo.birthDate }" pattern="dd/MM/yyyy"></fmt:formatDate> </td>
+						<td><fmt:formatDate value="${contact.birthDate }" pattern="dd/MM/yyyy"></fmt:formatDate> </td>
 						<td>${contact.active }</td>
 						<td><a type="button" class="btn btn-success" href="/update-contact?id=${contact.id }">Update</a>
 						<td><a type="button" class="btn btn-warning" href="/delete-contact?id=${contact.id }">Delete</a>

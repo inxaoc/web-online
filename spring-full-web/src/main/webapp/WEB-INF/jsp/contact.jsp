@@ -2,7 +2,7 @@
 <%@ include file="common/navigation.jspf" %>
 
 <div class="container">
-	<form:form method="post" commandName="contact">
+	<form:form method="post" modelAttribute="contact">
 		<form:hidden path="id" />
 		<fieldset class="form-group">
 			<form:label path="firstName">First name</form:label>
@@ -26,10 +26,10 @@
 		</fieldset>
 
 		<fieldset class="form-group">
-			<form:label path="targetDate">Birth date</form:label>
-			<form:input path="targetDate" type="text" class="form-control"
-				required="optional" />
-			<form:errors path="targetDate" cssClass="text-warning" />
+			<form:label path="birthDate">Birth date</form:label>
+			<form:input path="birthDate" type="text" class="form-control"
+				required="optional"/>
+			<form:errors path="birthDate" cssClass="text-warning" />
 		</fieldset>
 
 		<button type="submit" class="btn btn-success">Add contact</button>
